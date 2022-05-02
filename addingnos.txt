@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>String addition</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            function two_string(str, n)
+  {
+    first_part = str.substring(0, n);
+    last_part = str.substring(str.length - n);
+    return first_part + last_part;
+ }
+console.log(two_string("Safreen", 3));
+
+        </script>  
+    </body>
+</html>

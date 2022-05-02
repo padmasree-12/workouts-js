@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>new string</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            function string_check(str1) {
+  if (str1 === null || str1 === undefined || str1.substring(0, 3) === 'New') 
+  {
+    return str1;
+  }
+  return "New"+str1;
+}
+
+console.log(string_check("Newzealand"));
+console.log(string_check("York"));
+
+        </script>   
+    </body>
+</html>

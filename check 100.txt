@@ -1,0 +1,17 @@
+<html>
+    <head>
+    </head>
+    <body>
+       
+        <script>
+           function test50(x, y) 
+{
+  return ((x==50 || y ==50) || (x + y ==50));
+} 
+         console.log(test100(100, 100));
+console.log(test100(20, 100));
+console.log(test100(20, 20));
+console.log(test100(20, 30));
+        </script>
+    </body>
+</html>
